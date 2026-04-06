@@ -1,0 +1,202 @@
+body{
+margin:0;
+font-family:Arial;
+color:#222;
+}
+
+/* NAVBAR */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:white;
+border-bottom:1px solid #eee;
+}
+
+nav{
+display:flex;
+gap:20px;
+}
+
+/* HERO */
+
+.hero{
+height:500px;
+background:linear-gradient(90deg,#f6a800,#d3692b);
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:42px;
+max-width:700px;
+}
+
+/* BUTTONS */
+
+.btn-primary{
+background:#165355;
+border:none;
+padding:12px 24px;
+color:rgb(255, 255, 255);
+border-radius:6px;
+cursor:pointer;
+}
+
+.btn-secondary{
+background:#165355;
+border:none;
+padding:12px 24px;
+color:rgb(255, 255, 255);
+border-radius:6px;
+}
+
+/* FEATURES */
+
+.features{
+padding:80px 40px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+width:250px;
+}
+
+/* CTA */
+
+.cta{
+padding:80px;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.templates{
+padding:80px 40px;
+text-align:center;
+}
+
+.templates .cards{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.produto{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:80px;
+padding:100px 40px;
+}
+
+.produto-texto{
+max-width:500px;
+}
+
+.produto-texto h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.produto-imagem img{
+width:500px;
+border-radius:10px;
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+
+.faq{
+padding:100px 80px;
+background:#f5f6f8;
+}
+
+.faq-container{
+display:flex;
+gap:100px;
+align-items:flex-start;
+}
+
+.faq-left{
+max-width:400px;
+}
+
+.faq-left h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.faq-left p{
+color:#555;
+line-height:1.6;
+}
+
+.faq-right{
+flex:1;
+}
+
+.faq-item{
+padding:25px 0;
+border-bottom:1px solid #e2e2e2;
+}
+
+.faq-item h3{
+font-size:20px;
+margin-bottom:10px;
+}
+
+.faq-item p{
+color:#666;
+line-height:1.6;
+}
